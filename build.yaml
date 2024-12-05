@@ -18,5 +18,12 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
-null
-...
+include:
+  - board: adafruit_kb2040
+    shield: corne_left
+  - board: adafruit_kb2040
+    shield: corne_right
+  - board: nice_nano_v2
+    shield: corne_left
+  - board: nice_nano_v2
+    shield: corne_right
